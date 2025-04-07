@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 18px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.profile-picture {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; /* Makes the image circular */
+    border: 3px solid #fff; /* Adds a white border around the image */
+    margin-bottom: 5px; /* Adds space below the image */
+}
+
+/* Container Styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Heading Styles */
+h1, h2 {
+    color: #333;
+    font-size: 2rem; /* Larger heading font size */
+}
+
+/* Link Styling */
+a {
+    color: #0077b5;
+    text-decoration: none;
+    font-size: 1.1rem; /* Slightly larger font for links */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Articles Section Styling */
+.articles ul, .conferences-grid, .teaching ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* List item styling in articles and teaching sections */
+.articles ul li, .conferences-grid iframe, .teaching ul li {
+    margin-bottom: 10px;
+}
+
+/* Teaching Section Styling */
+.teaching ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Conferences Grid Layout */
+.conferences-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates 2 equal-width columns */
+    grid-template-rows: repeat(2, auto); /* Creates 2 rows */
+    gap: 20px; /* Adds space between items */
+    justify-items: center; /* Centers the content within grid items */
+}
+
+/* Conference Item Styling */
+.conference-item {
+    width: 100%; /* Makes sure the item takes up the full width of its container */
+    max-width: 560px; /* Maximum width for each iframe */
+    text-align: center;
+}
+
+/* Conference Item Iframe Styling */
+.conference-item iframe {
+    width: 100%; /* Makes the iframe take up the full width of the container */
+    height: 315px; /* Fixed height for maintaining a 16:9 aspect ratio */
+}
+
+/* Conference Item Heading Styling */
+.conference-item h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem; /* Larger text for conference titles */
+}
+
+/* Language Switcher Styling */
+.language-switcher {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.language-switcher img {
+    width: 30px; /* Adjust flag size */
+    height: 20px;
+    margin: 0 5px; /* Space between flags */
+    cursor: pointer;
+    border: 1px solid #ccc; /* Optional border */
+    border-radius: 3px; /* Optional rounded corners */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .conferences-grid {
+        grid-template-columns: 1fr; /* Single column on small screens */
+    }
+
+    body {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    h1, h2 {
+        font-size: 1.5rem; /* Smaller headings on mobile */
+    }
+
+    .conference-item iframe {
+        height: 200px; /* Adjust iframe height for mobile */
+    }
+
+    .profile-picture {
+        width: 150px; /* Smaller profile picture on mobile */
+        height: 150px;
+    }
+}
