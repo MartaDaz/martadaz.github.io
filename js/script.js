@@ -2,7 +2,7 @@
 const translations = {
     en: {
         aboutMeTitle: "About Me",
-        aboutMeText: "Hi, I'm Marta! I lead the Data Platform and Governance at Adevinta for Spanish marketplaces like InfoJobs, Fotocasa, and Milanuncios, and I’m proud to be President of DAMA Spain. With over 20 years in the data field, I’ve actively participated in building Data Offices, launching Data Governance programs, and developing AI and data products using agile methodologies—both at Adevinta and previously at Leroy Merlin Spain. I also teach data strategy, ethics, and monetization at universities like UOC and UCLM. Feel free to explore my work and reach out to connect!",
+        aboutMeText: "Hi, I'm Marta! I lead the Data Platform and Governance at Adevinta for Spanish marketplaces like InfoJobs, Fotocasa, and Milanuncios, and I’m proud to be President of DAMA Spain. With over 20 years in the data field, I’ve actively participated in building Data Offices, launching Data Governance programs, and developing AI and data products using agile and product mindset—both at Adevinta and previously at Leroy Merlin Spain. I also teach data strategy, ethics, and monetization at universities like UOC and UCLM. Feel free to explore my work and reach out to connect!",
         contactTitle: "Contact",
         contactText: 'You can reach out to me on <a href="https://www.linkedin.com/in/diazm/" target="_blank">LinkedIn</a>.',
         articlesTitle: "Articles",
