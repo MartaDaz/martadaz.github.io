@@ -2,9 +2,9 @@
 const translations = {
     en: {
         aboutMeTitle: "About Me",
-        aboutMeText: "Hi, I'm Sergio, I work as a Data Engineer while also teaching BigData and AI. Feel free to explore my work below and contact me to share experiences!",
+        aboutMeText: "Hi, I'm Marta! I lead the Data Platform and Governance at Adevinta for Spanish marketplaces like InfoJobs, Fotocasa, and Milanuncios, and I’m proud to be President of DAMA Spain. With over 20 years in the data field, I’ve actively participated in building Data Offices, launching Data Governance programs, and developing AI and data products using agile methodologies—both at Adevinta and previously at Leroy Merlin Spain. I also teach data strategy, ethics, and monetization at universities like UOC and UCLM. Feel free to explore my work and reach out to connect!",
         contactTitle: "Contact",
-        contactText: 'You can reach out to me on <a href="https://www.linkedin.com/in/sergiocoutocatoira/" target="_blank">LinkedIn</a>.',
+        contactText: 'You can reach out to me on <a href="https://www.linkedin.com/in/diazm/" target="_blank">LinkedIn</a>.',
         articlesTitle: "Articles",
         teachingTitle: "Masters where I teach",
         conferencesTitle: "Conferences",
@@ -14,9 +14,9 @@ const translations = {
     },
     es: {
         aboutMeTitle: "Sobre Mí",
-        aboutMeText: "Hola, soy Sergio, un ingeniero de datos apasionado con un gran interés en los datos y en las historias que cuentan. ¡No dudes en explorar mi trabajo a continuación!",
+        aboutMeText: "¡Hola, soy Marta! Lidero la Plataforma de Datos y el Gobierno del Dato de Adevinta en España para marketplaces como InfoJobs, Fotocasa y Milanuncios, además de ser presidenta de DAMA España. Con más de 20 años de experiencia en el campo de los datos, he participado en el lanzamiento de Data Offices, lanzado programas de Gobierno del Dato y desarrollado productos de IA y datos utilizando mentalidad producto y agile, tanto en Adevinta como anteriormente en Leroy Merlin España. También imparto clases sobre estrategia de datos, ética, monetización y gobierno del dato en universidades como la UOC, Universidad de Mondragón y la UCLM. ¡No dudes en explorar mi trabajo y ponerte en contacto conmigo!",
         contactTitle: "Contacto",
-        contactText: 'Puedes contactarme en <a href="https://www.linkedin.com/in/sergiocoutocatoira/" target="_blank">LinkedIn</a>.',
+        contactText: 'Puedes contactarme en <a href="https://www.linkedin.com/in/diazm/" target="_blank">LinkedIn</a>.',
         articlesTitle: "Artículos",
         teachingTitle: "Masters en los que participo como profesor",
         conferencesTitle: "Charlas",
