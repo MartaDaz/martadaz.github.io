@@ -3,9 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <a href="#" data-lang="en"><img src="images/flags/uk.png" alt="English"></a>
+        <a href="#" data-lang="gl"><img src="images/flags/gz.png" alt="Galego"></a>
+    </div>
+
+    <header>
+        <img src="images/profile/my-profile-picture.jpg" alt="Sergio" class="profile-picture">
+    </header>
+
+    <div class="container">
+        <!-- About Me Section -->
+        <section id="about-me">
+            <h2 id="about-me-title"></h2>
+            <p id="about-me-text"></p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2 id="contact-title"></h2>
+            <p id="contact-text"></p>
+        </section>
+
+        <!-- Articles Section -->
+        <section class="articles">
+            <h2 id="articles-title"></h2>
+            <ul id="articles-list">
+                <li><a href="https://medium.com/adevinta-tech-blog/creating-source-aligned-data-products-in-adevinta-spain-ab96154698c2" target="_blank">Creating source-aligned data products in Adevinta Spain</a></li>
+                <li><a href="https://medium.com/adevinta-tech-blog/how-we-moved-from-local-scripts-and-spreadsheets-shared-by-email-to-data-products-ade22e9adb2a" target="_blank">How we moved from local scripts and spreadsheets shared by email to Data Products - Part II</a></li>
+                <li><a href="https://medium.com/adevinta-tech-blog/how-we-moved-from-local-scripts-and-spreadsheets-shared-by-email-to-data-products-edaec9228753" target="_blank">Coautored: How we moved from local scripts and spreadsheets shared by email to Data Products - Part I</a></li>
+                <!-- Add more articles as needed -->
+            </ul>
+        </section>
+
+        <!-- Teaching Section -->
+        <section class="teaching">
+            <h2 id="teaching-title"></h2>
+            <ul id="teaching-list">
+                <li><a href="https://www.eoi.es/es/cursos/89273/master-en-inteligencia-artificial-y-ciencia-de-datos-online" target="_blank" id="course-1">Master IA & Ciencia de Datos (Online)</a></li>
+                <li><a href="https://www.eoi.es/es/cursos/89564/master-en-ingenieria-de-datos-online" target="_blank" id="course-2">Master Ingeniería de Datos (Online)</a></li>
+                <li><a href="https://www.eoi.es/es/cursos/89492/master-en-inteligencia-artificial-data-management-madrid" target="_blank" id="course-3">Master IA & Data Management</a></li>
+            </ul>
+        </section>
+
+
+        <!-- Conferences Section -->
+        <section class="conferences">
+            <h2 id="conferences-title"></h2>
+            <div class="conferences-grid">
+                <div class="conference-item">
+                    <h3 id="conferences-dama"></h3>
+                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/JOKL5dkVli0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="conference-item">
+                    <h3 id="conferences-codely"></h3>
+                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/hd2yh_Tbrno" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
